@@ -1,0 +1,212 @@
+    @media (max-width: 575.98px) {
+        .navbar-toggler:focus {
+          text-decoration: none;
+          outline: 0;
+          border: 2px solid Red;
+          box-shadow: 0 0 0 transparent;
+      }  
+      .navbar-nav{ 
+        background: #020312;
+        text-align: center;
+    }
+      #banner .banner_main .banner_text h1 {
+        font-size: 50px;
+        margin-left: -3px;
+        }
+        #banner .banner_main .banner_text h2 {
+          font-size: 22px;
+          padding-top: 9px;
+        }
+        #about .about_main .about_inner .about_text h3 {
+          font-size: 17px;
+        }
+        #about .about_main .about_inner .about_text p {
+          font-size: 14px;
+        }
+        .about_img{ 
+          text-align: center;
+        }
+        #about .about_main .about_inner .about_btn {
+          margin-top: 35px;
+          text-align: center;
+        }
+        .ser_item:hover{
+            transform: scale(1.01) !important;
+            -webkit-transform: scale(1.01) !important;
+            -moz-transform: scale(1.01) !important;
+            -ms-transform: scale(1.01) !important;
+            -o-transform: scale(1.01) !important;
+            box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px !important;
+    }
+        .inner_two{ 
+          margin: 40px 0;
+        }
+        .progress_part{ 
+          margin-top: 40px;
+        }
+        #skill .skill_main .skill_btn {
+          margin-top: 25px;
+          text-align: center;
+        }
+        #skill .skill_main .skill_text p {
+          font-size: 13px;
+        }
+        #portfolio .pro_btn button {
+          padding: 7px 5px;
+          margin: 0px 2px;
+          font-size: 11px;
+        }
+        #portfolio .port_img img{ 
+          object-fit: cover;
+        }
+        .team_item:hover{
+          transform: scale(1) !important;
+          -webkit-transform: scale(1) !important;
+          -moz-transform: scale(1) !important;
+          -ms-transform: scale(1) !important;
+          -o-transform: scale(1) !important;
+        }  
+        #team .team_main .team_item {
+          margin-left: 5%;
+        } 
+        #team .slick-dots {
+          left: 33%;
+        }
+        #counter .counter_item h4 {
+          font-size: 12px;
+        }
+        #counter .counter_item span {
+          font-size: 40px;
+        }
+        #contact .contact_main .con_form form .con_btn {
+          margin-top: 20px;
+          text-align: center;
+        }
+        #footer p {
+          font-size: 13px;
+        }
+      } 
+   @media (min-width:576px) and (max-width: 767.98px) { 
+    #banner .banner_main .banner_text h2 {
+      font-size: 35px;
+    }
+    .navbar-toggler:focus {
+      text-decoration: none;
+      outline: 0;
+      border: 2px solid Red;
+      box-shadow: 0 0 0 transparent;
+    }  
+  .navbar-nav{ 
+    background: #020312;
+    text-align: center;
+    }
+    .about_img{ 
+      text-align: center;
+    }
+    .ser_item:hover{
+      box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px !important;
+} 
+      #service .ser_main .ser_item p {
+        font-size: 15px;
+      }
+      #skill .skill_main .skill_text p {
+        font-size: 12px;
+        line-height: 21px;
+      }
+      #skill .skill_main .skill_text h4 {
+        font-size: 15px;
+      }
+      #skill .skill_main .skill_btn button {
+        padding: 8px 20px;
+      }
+      #skill .skill_main .skill_btn button a {
+        font-size: 22px;
+      }
+      #service .ser_main .ser_item h4 {
+        font-size: 20px;
+      }
+      #portfolio .pro_btn button {
+        margin: 0px 4px;
+        font-size: 14px;
+      }
+      #team .slick-dots {
+        left: 35%;
+      }
+      #contact .in_name{ 
+        margin-top: 20px !important;
+      }
+      #contact .contact_main .item_con p {
+        font-size: 13px;
+      }
+   }
+    @media (min-width:768px) and (max-width: 991.98px) { 
+            .title .title_head::after {
+              right: 47% !important;
+            }
+            .navbar-toggler:focus {
+              text-decoration: none;
+              outline: 0;
+              border: 2px solid Red;
+              box-shadow: 0 0 0 transparent;
+            }  
+          .navbar-nav{ 
+            background: #020312;
+            text-align: center;
+          }
+          #about .about_main .about_inner {
+            margin-top: 0px;
+          }
+          #about .about_main .about_inner .about_text h3 {
+            font-size: 20px;
+          }
+          #service .ser_main .ser_item h4 {
+            font-size: 19px;
+          }
+          #service .ser_main .ser_item p {
+            font-size: 13px;
+            padding-top: 5px;
+          }
+          .ser_item:hover{
+            box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px !important;
+    } 
+    #team .team_main .team_item h3 {
+      font-size: 19px;
+    }
+    #team .slick-dots {
+      left: 40%;
+    }
+    #contact .in_name{ 
+      margin-top: 20px !important;
+    }
+
+
+
+
+
+
+
+
+      }
+
+ @media (min-width:992px) and (max-width: 1199.98px) {  
+  #banner .banner_main .banner_text h2 {
+    font-size: 34px;
+  }
+  #service .ser_main .ser_item p {
+    font-size: 15px;
+  }
+  .ser_item:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px !important;
+} 
+#contact .contact_main .con_form form .con_btn button a {
+	font-size: 15px;
+}
+#contact .contact_main .con_form form .con_btn button {
+	padding: 10px 17px;
+}
+ }
+ @media (min-width:1200px) and (max-width: 1399.98px) { 
+  .ser_item:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px !important;
+} 
+  } 

@@ -1,0 +1,65 @@
+/* about part start */ 
+@import "../mixin/mixin";
+#about{ 
+    padding: 110px 0;
+    // background: #12141c;
+    .title{ 
+        .title_head{ 
+            position: relative;
+            &::after{ 
+                    position: absolute;
+                    content: '';     
+                    height: 3px;
+                    width: 55px;
+                    background: #f38181;
+                    bottom: -15px;
+                    right: 41%;
+                }
+            }
+            h2{ 
+                @include head_2;
+            }
+        }
+
+      .about_main{ 
+          margin-top: 85px;
+          .about_inner{  
+            margin-top: 50px;
+            .about_text{ 
+                h3{ 
+                  font-size: 25px;
+                  font-weight: 600;
+                  font-family: 'Ubuntu', sans-serif;
+                  padding-bottom: 14px;
+                    span{ 
+                        color: crimson;
+                    }
+                }
+                p{ 
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #222222;
+                    font-weight: 400;
+                  font-family: 'Ubuntu', sans-serif;
+                }
+            }
+            .about_btn{ 
+                margin-top: 30px;
+                button{ 
+                    @include port_ban;
+                    &:hover{ 
+                        background: transparent;
+                    }
+                    &:hover a{ 
+                        color: crimson;
+                    }
+                    a{ 
+                        @include btn_ank;
+                    }
+                }
+            }
+          }
+      }  
+    }
+/* about part end */ 
+// color: #f26c4f;

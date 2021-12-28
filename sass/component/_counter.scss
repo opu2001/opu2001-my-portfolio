@@ -1,0 +1,22 @@
+/* counter part start */ 
+#counter{ 
+    padding: 120px 0;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    .counter_item{ 
+     span{ 
+        color: #f26c4f ;
+        font-size: 48px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+     }
+     h4{ 
+         color: white;
+         font-family: 'Ubuntu', sans-serif;
+         font-weight: 400;
+         font-size: 20px;
+     }
+    }
+} 
+/* counter part end */

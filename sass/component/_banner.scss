@@ -1,0 +1,44 @@
+/* banner part start */  
+@import "../mixin/mixin";
+#banner{ 
+    padding: 130px 0;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    .banner_main{ 
+        .banner_text{ 
+            color: white;
+            h3{ 
+                font-size: 27px;
+                font-weight: 400;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            h1{ 
+                font-size: 75px;
+                font-weight: 600;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            h2{ 
+                font-size: 40px;
+                font-weight: 500;
+                font-family: 'Ubuntu', sans-serif;
+                span{ 
+                    color: crimson;
+                }
+            }
+        }
+        .banner_btn{ 
+            margin-top: 30px;
+          button{ 
+              @include port_ban;
+              &:hover{ 
+                  background: transparent;
+              }
+              a{ 
+                  @include btn_ank;
+              }
+          }
+        }
+    }
+} 
+/* banner part end */

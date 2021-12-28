@@ -1,0 +1,130 @@
+/* team part start */ 
+#team{ 
+    padding: 100px 0;
+    background-color: #020312;
+    position: relative;
+    .slick-dots{ 
+        position: absolute;
+        bottom: -20%;
+        left: 45%;
+        width: 150px;
+    }
+    .slick-dots li{
+        height: 15px;
+        display: inline-block;
+        width: 15px;
+        border: 2px solid crimson;
+        background: transparent;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin: 0px 4px;
+    }
+     .slick-dots li button {
+        color: transparent;
+        height: 13px;
+        width: 13px;
+        border: 1px solid transparent;
+        background: crimson;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin: -1px 0px;
+        opacity: 0;
+        transition: all linear 0.4s;
+        -webkit-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+}
+     .slick-dots .slick-active button{ 
+        opacity: 1;
+    }
+    .title{ 
+        .title_head{ 
+            position: relative;
+            &::after{ 
+                    position: absolute;
+                    content: '';     
+                    height: 3px;
+                    width: 55px;
+                    background: #f38181;
+                    bottom: -15px;
+                    right: 41%;
+                }
+            }
+            h2{ 
+                @include head_2;
+                color: white !important;
+            }
+        }
+
+    .team_main{ 
+        margin-top: 80px;
+        .col-lg-4{ 
+            width: 95% !important;
+        }
+        .team_item{
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 30px 0;
+            transition: all linear 0.3s;
+            -webkit-transition: all linear 0.3s;
+            -moz-transition: all linear 0.3s;
+            -ms-transition: all linear 0.3s;
+            -o-transition: all linear 0.3s;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -ms-border-radius: 6px;
+            -o-border-radius: 6px;
+            &:hover
+{
+                background: crimson;
+                transform: scale(1.04);
+                -webkit-transform: scale(1.04);
+                -moz-transform: scale(1.04);
+                -ms-transform: scale(1.04);
+                -o-transform: scale(1.04);
+}
+            &:hover img{ 
+                border: 5px solid white;
+            }
+            img{
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border: 5px solid crimson;
+                margin: 0 auto;
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                object-fit: cover;
+}        
+            h3{ 
+                font-family: 'Poppins', sans-serif;
+                font-size: 22px;
+                font-weight: 500;
+                text-transform: uppercase;
+                padding: 24px 0 14px 0;
+            }
+            p{ 
+                font-family: 'Poppins', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+}
